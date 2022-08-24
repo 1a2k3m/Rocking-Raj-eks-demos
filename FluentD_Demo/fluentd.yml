@@ -197,9 +197,9 @@ spec:
         image: fluent/fluentd-kubernetes-daemonset:v1.1-debian-cloudwatch
         env:
           - name: REGION
-            value: us-west-2
+            value: ap-southeast-1
           - name: CLUSTER_NAME
-            value: eks-loggingtest
+            value: eks-demo
         resources:
           limits:
             memory: 200Mi
